@@ -12,7 +12,6 @@ import { Formik, Form } from "formik";
 import { useState } from "react";
 import { z } from "zod";
 import { toFormikValidationSchema } from "zod-formik-adapter";
-import Header from "../components/Header";
 function checkPasswordStrength(password: string): "Very Weak" | "Weak" | "Strong" {
     const hasUpper = /[A-Z]/.test(password);
     const hasLower = /[a-z]/.test(password);
