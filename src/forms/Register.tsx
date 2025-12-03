@@ -58,7 +58,7 @@ export default function Register() {
 
   return (
     <>
-      <Header />
+     
       <Box display="flex" justifyContent="center" alignItems="center" minHeight="77vh">
         <Paper elevation={2} sx={{ px: 6, py: 2, width: 560, borderRadius: 4 }}>
           <Typography

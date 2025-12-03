@@ -15,7 +15,7 @@ export default function ForgetPassword() {
 
   return (
     <>
-    <Header/>
+   
     <Box
       display="flex"
       justifyContent="center"

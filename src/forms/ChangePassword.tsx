@@ -51,7 +51,7 @@ export default function ChangePassword() {
 
     return (
         <>
-        <Header/>
+        
         <Box display="flex" justifyContent="center" alignItems="center" minHeight="77vh">
             <Paper elevation={2} sx={{ px: 6, py: 4, width: 560, borderRadius: 4 }}>
                 <Typography
